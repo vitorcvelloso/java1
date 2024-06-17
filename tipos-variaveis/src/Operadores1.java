@@ -1,8 +1,8 @@
 import java.util.Date;
 
-public class Operadores {
+public class Operadores1 {
     public static void main(String[] args) throws Exception {
-
+        // Atribuição
         String meuNome = "Vitor"; // texto
         char sexo = 'M'; // caractér de 1 letra apenas
         boolean doadorOrgao = false; // valores como Sim e Não
@@ -16,5 +16,6 @@ public class Operadores {
         int modulo = 18 % 3;
         double resultado = (10 * 7) + (20 / 4);
 
+        String nomeCompleto = "Vitor" + "Vito"; //mostrando que o + juntas texto tbm
     }
 }
